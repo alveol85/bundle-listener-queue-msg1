@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>integration-osgi-parent</groupId>
+  <artifactId>integration-osgi-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+   <properties>
+<!--         <bundle-listener-queue-msg1.version>0.0.1-SNAPSHOT</bundle-listener-queue-msg1.version> -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+  
+<!--   <dependencyManagement> -->
+<!-- 	  <dependencies> -->
+<!-- 	      <dependency> -->
+<!-- 	          <groupId>integration-osgi-parent</groupId> -->
+<!-- 	          <artifactId>bundle-listener-queue-msg1</artifactId> -->
+<!-- 	          <version>${bundle-listener-queue-msg1.version}</version> -->
+<!-- 	          <type>bundle</type> -->
+<!-- 	      </dependency> -->
+<!-- 	  </dependencies> -->
+<!--   </dependencyManagement> -->
+
+  <modules>
+      <module>bundle-listener-queue-msg1</module>
+  </modules>
+
+</project>

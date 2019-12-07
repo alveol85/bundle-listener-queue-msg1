@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1573400359487
+Build-Jdk: 1.8.0_181
+Built-By: alveol85
+Bundle-Activator: osgi.listeners.message.Activator
+Bundle-Description: bundle-listener-queue-msg1 OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: bundle-listener-queue-msg1
+Bundle-SymbolicName: bundle-listener-queue-msg1
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: osgi.listeners.message;version="0.0.1.SNAPSHOT";uses:="j
+ avax.jms,org.osgi.framework"
+Import-Package: javax.jms,org.apache.activemq,org.osgi.framework;version
+ ="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-2.4.1.201501161923
